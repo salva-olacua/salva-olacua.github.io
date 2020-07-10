@@ -1,0 +1,87 @@
+body {
+  background-color: #af6c56;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*-----
+  Fonts
+  -----*/
+@font-face {
+  src: url(public/assets/fonts/Comfortaa-VariableFont_wght.ttf);
+  font-family: comfortaa;
+}
+
+@font-face {
+  src: url(public/assets/fonts/Pacifico-Regular.ttf);
+  font-family: pacifico;
+}
+
+/*------------------
+  Estilos del cuerpo
+  ------------------*/
+
+.main-card {
+  width: 450px;
+  background-color: #af6c56;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  padding: 40px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 5%;
+  font-family: comfortaa, "Century Gothic", sans-serif;
+}
+
+/*--------------------------------- 
+  Estilos del parrafo y los titulos
+  ---------------------------------*/
+
+.main-card__title {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: pacifico, "Century Gothic", sans-serif;
+}
+
+.main-card__subtitle {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.main-card__paragraph {
+  letter-spacing: 1.5px;
+  text-align: justify;
+  line-height: 2em;
+}
+
+/*-----------------
+  Estilos de los li 
+  -----------------*/
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-card__item {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+  padding: 15px;
+}
+
+.main-card__link {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+
+.main-card li a:hover {
+  color: #ecae97;
+}
