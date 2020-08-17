@@ -1,7 +1,7 @@
 body {
   background-color: #af6c56;
-  background-size: cover;
-  background-attachment: fixed;
+  /* padding-left: auto;
+  scroll-padding-right: auto; */
 }
 
 /*-----
@@ -22,7 +22,8 @@ body {
   ------------------*/
 
 .main-card {
-  width: 450px;
+  width: 450px; /* uso actual*/
+  width: 70vmin;
   background-color: #af6c56;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
@@ -41,7 +42,8 @@ body {
   ---------------------------------*/
 
 .main-card__title {
-  font-size: 40px;
+  font-size: 40px; /*valor actual */
+  font-size: 6vw;
   letter-spacing: 4px;
   font-weight: 100;
   font-family: pacifico, "Century Gothic", sans-serif;
