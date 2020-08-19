@@ -42,15 +42,14 @@ body {
   ---------------------------------*/
 
 .main-card__title {
-  font-size: 40px; /*valor actual */
-  font-size: 6vw;
+  font-size: 6vmin;
   letter-spacing: 4px;
   font-weight: 100;
   font-family: pacifico, "Century Gothic", sans-serif;
 }
 
 .main-card__subtitle {
-  font-size: 20px;
+  font-size: 4vmin;
   letter-spacing: 3px;
   font-weight: 100;
 }
@@ -86,4 +85,11 @@ ul {
 
 .main-card li a:hover {
   color: #ecae97;
+}
+
+@media screen and (min-width: 360px)
+              and (max-width: 1040px){
+  .main-card__link{
+    font-size: 50px;
+  }
 }
