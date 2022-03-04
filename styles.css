@@ -1,7 +1,7 @@
 body {
-  background-color: #af6c56;
-  /* padding-left: auto;
-  scroll-padding-right: auto; */
+  background-color: #e0e0e0;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*-----
@@ -22,16 +22,14 @@ body {
   ------------------*/
 
 .main-card {
-  width: 450px; /* uso actual*/
-  width: 70vmin;
-  background-color: #af6c56;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 450px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
   padding: 40px;
   text-align: center;
-  color: white;
+  color: #898989;
   margin: auto;
   margin-top: 5%;
   font-family: comfortaa, "Century Gothic", sans-serif;
@@ -69,23 +67,28 @@ ul {
   padding: 0;
 }
 
-.main-card__item {
-  display: inline-block;
-  margin: 6px;
-  list-style: none;
-  padding: 15px;
-}
-
 .main-card__link {
-  color: white;
-  text-decoration: none;
-  font-size: 60px;
-  transition: all ease-in-out 250ms;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  font-size: 20px; 
+  margin-left: 10px;
+  color: #898989;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow:  5px 5px 11px #bebebe,
+              -5px -5px 11px #ffffff;
 }
 
-.main-card li a:hover {
-  color: #ecae97;
+.main-card__link:active {
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 11px #bebebe,
+              inset -5px -5px 11px #ffffff;
 }
+
 
 @media screen and (min-width: 360px)
               and (max-width: 1040px){
